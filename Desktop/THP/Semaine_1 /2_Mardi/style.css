@@ -1,0 +1,195 @@
+.contain{
+	position:absolute;
+	font-family: 'Source Sans Pro', sans-serif;
+	width:100vw;
+	height:100vh;
+	top:0px;
+	left:0px;
+}
+
+a { text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+p{color:black;}
+
+header{
+	width:100%;
+	height:auto;
+	text-align:right;
+	position:fixed;
+	top:0;
+}
+
+	ul {
+		position:relative;
+		float:right;
+		width:100%;
+	}
+
+
+		li {
+			display:inline;
+			padding-right:20px;
+			list-style-type: none;
+			font-weight: 400;
+		}
+
+			li a {
+				text-decoration: none;
+				color:#000000;
+			}
+
+			li img {
+				vertical-align: middle;
+			}
+
+	.icon{
+		width:20px;
+		height:auto;
+	}
+
+
+body {
+	width:100%;
+}
+
+	.div_center{
+		margin-top:220px;
+	}
+
+
+		#logo{
+			position:relative;
+			width:250px;
+		}	
+
+		.search_bar{
+			position:relative;
+			margin-top:30px;
+		}
+
+				.search_bar input {
+					width:550px;
+					height:30px;
+					border:none;
+					box-shadow:-1px 2px 5px #e0e0e0;
+					border:solid;
+					border-width: 1px; 
+					border-color:#eeeeee;
+				}
+
+
+		.ligne_buttons {
+			width:100%;
+			margin-top: 30px;
+			height:50px;
+		}
+
+				.button{
+					position:relative;
+					display:inline-block;
+					width:auto;
+					height:auto; 
+					padding-left:20px;
+					padding-right:20px;
+					padding-top:10px;
+					padding-bottom:10px;
+					margin-left:10px;
+					margin-right:10px;
+					border-radius:4px;
+					background:#e8e8e8;
+					font-weight: 600;
+					color: #7c7c7c;
+				}
+
+					.button:hover {
+						border:solid;
+						border-width: 0.5px;
+						border-color: #b2b2b2;
+						color:black;
+				}
+
+
+				#button_blue {
+					background-color: #5074f9;
+				}
+
+				#button_blue:hover{
+					border:none;
+				}
+
+				#button_blue:active{
+					box-shadow: inset 0px 3px 3px #094ace;
+					background-color:#4468cc;
+				}
+
+				#button_blue a{
+					color:#fff;
+				}
+
+				#button_blue a:hover{
+					text-decoration: none;
+				}
+
+
+
+
+		.langues{
+			margin-top:30px;
+
+		}
+
+			.langues a {
+				color:blue;
+				text-decoration:underline;
+			}
+
+
+
+footer{
+	background-color:#e4e5e6; 
+	width:100%;
+	height: 100px;
+	position:fixed;
+	bottom:0px;
+}
+
+
+	.ligne_1{ 
+		position:relative;
+		height:50%;
+		border-bottom:solid;
+		border-width:1px;
+		border-color:#bcbcbc; 
+		padding-left:20px;
+	}
+
+
+	.ligne_2{
+		position:relative;
+		padding-left:20px;
+		padding-right:5px;
+	}
+
+
+			.liens_gauche{
+				position:relative;
+				width:49.5%;
+				display:inline-block;
+			}
+
+			.liens_droite{
+				position:relative;
+				width:50%;
+				display:inline-block;
+				text-align: right;
+			}
+
+
+
+
+
+
+
+
